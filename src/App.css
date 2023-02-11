@@ -8,3 +8,9 @@
   margin-top: 50px;
   margin-left: 400px;
 }
+
+.spanpaginate {
+  margin-left: 900px;
+  font-size: 22px;
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import Muzeji from "./Muzeji";
 import { useState } from 'react'
+import Navigacija from "./Navigacija";
 
 
 function Home() {
@@ -55,6 +56,8 @@ function Home() {
 
     return (
         <div>
+            <Navigacija />
+
             <Muzeji muzeji={muzeji} />
 
             <div className="spanpaginate">

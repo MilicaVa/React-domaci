@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Muzeji from './Muzeji';
+import Navigacija from './Navigacija';
 
 function Search() {
 
@@ -42,6 +43,8 @@ function Search() {
 
     return (
         <div>
+
+            <Navigacija />
 
             <div className="searchfields">
                 <input type="text" id="inputsearch" onChange={handleSearch} />
